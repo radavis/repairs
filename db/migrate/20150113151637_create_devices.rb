@@ -3,7 +3,7 @@ class CreateDevices < ActiveRecord::Migration
     create_table :devices do |t|
       t.string :name
       t.string :manufacturer
-      t.integer :state
+      t.string :state
 
       t.timestamps null: false
     end
